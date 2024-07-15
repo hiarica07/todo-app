@@ -11,8 +11,8 @@ const Home = () => {
   
   return (
     <div>
-    <TodoEkle todos={todos} setTotos={setTodos} /> 
-    <TodoGoster todos={todos} setTotos={setTodos}/>
+    <TodoEkle todos={todos} setTodos={setTodos} /> 
+    <TodoGoster todos={todos} setTodos={setTodos}/>
     </div>
     
     
