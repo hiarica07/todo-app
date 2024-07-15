@@ -1,8 +1,18 @@
-import React from 'react'
+import Data from "../helper/Data"
+const TodoGoster = ({todos,setTodos}) => {
 
-const TodoGoster = () => {
+  // console.log(setTodos);
+  
+
   return (
-    <div>TodoGoster</div>
+    <div>
+      {todos.map((item)=>(
+        <div key={item.id}>
+          <h3>{item.text}
+          setTodos()</h3>
+        </div>
+      ))}
+    </div>
   )
 }
 
